@@ -1,0 +1,110 @@
+@set small-v-scrollbar
+{
+	.slider 
+	{ 
+	background-color: rgba(114,150,60,0.7);
+	}
+	.base { width: 3px; } /* explicit declaration of scrollbar width */
+}
+* { vertical-scrollbar: small-v-scrollbar; } /* all scrollable elements will have our small scrollbar now */
+
+body{
+	margin:0px;
+	background-image:url(img/001/skin.png);
+	background-repeat:expand stretch-left stretch-middle  stretch-right;
+	background-position:280 2 2 680;
+	foreground-image:url(img/border.png);
+	foreground-repeat:expand stretch-left stretch-middle  stretch-right;
+	foreground-position:5 5 5 5;
+}
+#header{
+	//background-color:red;
+	width:100%;
+	height:70px;
+	flow:horizontal;
+	behavior:windowCommand;
+}
+#space{
+	width:100%%;
+	height:20px;
+	font-weight:bold;
+	font-size:14px;
+	color:white;
+	padding:5 0 0 8;
+}
+#btn-close{
+	background-image:url(img/btn_close_normal.png);
+	width:39px;
+	height:19px;
+}
+#btn-close:hover{
+	background-image:url(img/btn_close_highlight.png);
+}
+#btn-close:active{
+	background-image:url(img/btn_close_down.png);
+}
+#main{
+	background-color:rgba(255,255,255,0.6);
+	margin:0 -5 -5 -5;
+	padding:0 5 5 5;
+	width:100%%;
+	height:100%%;
+}
+#mainarea{
+	//background-color:rgba(0,66,33,0.3);
+	margin:0 1 1 1;
+	width:100%%;
+	height:100%%;
+	overflow:hidden;
+}
+
+#skin-area{
+	background-color:white;
+	margin:7;
+	padding:1 1 1 0;
+	width:100%%;
+	height:100%%;
+	flow:h-flow;
+	overflow-y:auto;
+}
+.listimg{
+	width:120px;
+	height:120px;
+	padding:0 0 1 1;
+	behavior:myselect;
+	active-on!: $1(div.listimg:checked):checked = false ,
+	            self:checked = true;
+}
+.listimg:checked{
+	outline:2px dotted blue -1px;
+}
+img
+{
+	max-width:120px; 
+	max-height:120px;
+}
+
+#main-bottom{
+	//background-color:rgba(88,88,88,0.3);
+	margin:0 5 0 5;
+	width:100%%;
+	height:35;
+	flow:horizontal;
+	vertical-align:middle;
+}
+.btn{
+	behavior:windowCommand;
+	width:69px;
+	height:22px;
+	background-image:url(img/login_btn.png);
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:middle;
+	margin:0 0 0 10;
+}
+.btn:hover{
+	background-position: 0 0 0 -69;
+}
+.btn:active{
+	background-position: 0 0 0 -138;
+}

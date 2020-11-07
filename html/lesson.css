@@ -1,0 +1,103 @@
+@set small-v-scrollbar
+{
+	.slider 
+	{ 
+	background-color: rgba(114,150,60,0.7);
+	}
+	.base { width: 3px; } /* explicit declaration of scrollbar width */
+}
+* { vertical-scrollbar: small-v-scrollbar; } /* all scrollable elements will have our small scrollbar now */
+
+#pageBar{
+	//background-color:rgba(0,0,0,0.2);
+	width:100%%;
+	height:38px;
+	flow:horizontal;
+	vertical-align:middle;
+}
+#pagedir{
+	background-image:url(img\nextbtn_normal.png);
+	background-repeat:no-repeat;
+	width:16px;
+	height:14px;
+}
+.btn-bar{
+	height:22px;
+	width: max-intrinsic;
+	vertical-align:middle;
+	padding:0 2 0 2;
+	margin:0 5 0 0;
+	font-family:"宋体";
+}
+.btn-bar img{
+	vertical-align: middle;
+	margin:0 2 0 0;
+}
+.btn-bar:hover{
+	background-image:url(img\allbtn_highlight.png);
+	background-repeat:expand stretch-left stretch-middle  stretch-right;
+	background-position:5 5 5 5;
+}
+.btn-bar:active{
+	background-image:url(img\allbtn_down.png);
+	background-repeat:expand stretch-left stretch-middle  stretch-right;
+	background-position:5 5 5 5;
+}
+#pageTable{
+	width:100%%;
+	height:100%%;
+	//background-color:rgba(255,0,55,0.2);
+	overflow:none;
+	padding: 1 10 5 7;
+	margin:0 0 5 0;
+}
+#tab-style{
+	width:100%%;
+	height:100%%;
+	border:1 solid rgba(162,208,224,0.5);
+	border-radius:4;
+	background-image: url(img\tab_bk.png) ;
+	background-position: 5 5 5 5;
+	background-repeat:expand stretch-left  stretch-middle stretch-right;
+	overflow:auto;
+	border-spacing:0;
+}
+#tab-style > tr:not(:first-child)
+{ 
+		context-menu:selector(menu#tableMenu);
+		active-on!: $1(#tab-style > tr:checked):checked = false , 
+	    self:checked = true;
+}
+#tab-style > tr > td 
+{ 
+	padding:2 3 2 3;
+	height:20px;
+	border:1 solid rgba(162,208,224,1);
+	color:#000;
+	border-top:none;
+	border-right:none;
+}
+
+#tab-style > tr > td:first-child
+{ 
+	border-left:none;  
+	text-align:center;
+}
+#tab-style > tr:not(:first-child) > td:first-child
+{
+	color:blue;
+}
+#tab-style > tr:not(:first-child) > td:nth-child(6)
+{
+	color:green;
+}
+#tab-style > tr:checked > td
+{
+	background-color:rgba(87,124,55,0.2);
+	color:red;
+}
+#tab-style > tr:not(:first-child):hover
+{
+	background-color:rgba(0,88,55,0.2);
+	//color:red;
+}

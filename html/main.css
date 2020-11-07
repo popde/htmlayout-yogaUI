@@ -1,0 +1,133 @@
+body{
+	margin:0px;
+	background-image:url(img/001/skin.png);
+	background-repeat:expand stretch-left stretch-middle  stretch-right;
+	background-position:280 2 2 680;
+	foreground-image:url(img/border.png);
+	foreground-repeat:expand stretch-left stretch-middle  stretch-right;
+	foreground-position:5 5 5 5;
+}
+#header{
+	//background-color:red;
+	width:100%;
+	height:30px;
+	flow:horizontal;
+	behavior:windowCommand;
+}
+#space{
+	width:100%%;
+	height:20px;
+}
+#skin{
+	background-image:url(img/btn_Skin_normal.png);
+	width:28px;
+	height:20px;
+	margin:-1px;
+	behavior:myShowSkin;
+}
+#skin:hover{
+	background-image:url(img/btn_Skin_highlight.png);
+}
+#skin:active{
+	background-image:url(img/btn_Skin_down.png);
+}
+#btn-min{
+	background-image:url(img/btn_mini_normal.png);
+	width:28px;
+	height:19px;
+}
+#btn-min:hover{
+	background-image:url(img/btn_mini_highlight.png);
+}
+#btn-min:active{
+	background-image:url(img/btn_mini_down.png);
+}
+#btn-close{
+	background-image:url(img/btn_close_normal.png);
+	width:39px;
+	height:19px;
+}
+#btn-close:hover{
+	background-image:url(img/btn_close_highlight.png);
+}
+#btn-close:active{
+	background-image:url(img/btn_close_down.png);
+}
+
+#tabBar{
+	width:100%%;
+	height:32px;
+	//background-color:red;
+	margin:30 10 0 10;
+	flow:horizontal;
+	vertical-align:middle;
+}
+.tab{
+	background-image:url(img\main_tabbtn_normal.png);
+	background-repeat:expand stretch-left stretch-middle  stretch-right;
+	background-position: 1px 25px 1px 10px;
+	height:32px;
+	margin:0 -7 0 0;
+	vertical-align:middle;
+	padding:0 5 0 15;
+	width: calc( max-intrinsic-width() + 25px );
+	active-on!: parent = self.parent(),
+            parent.$1(.tab:checked):checked = false ,
+		    self:checked = true,
+			main_el = $1(div#tabArea) ,
+		    open_page = main_el.$1(div.page[open=true]) , 
+		    open_page.open = false , 
+		    open_page = main_el.child(self:index) ,
+		    open_page.open = true ;
+	assigned!:  parent = self.parent() ,
+	            check_tab = parent.$1(.tab[checked]),
+	            check_tab:checked = true ,
+				page_area = $1(div#tabArea) ,
+				page_area.child(check_tab:index).open = true ;
+}
+.tab:hover{
+	background-image:url(img\main_tab_highlight.png);
+}
+.tab:checked{
+	background-image:url(img\main_tab_check.png);
+	font-weight:bold;
+}
+.tab img
+{
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+	margin:0 5 0 0;
+}
+#tabArea{
+	height:100%%;
+	width:100%%;
+	background-image:url(img\for_back.png);
+	background-repeat:expand stretch-left stretch-middle  stretch-right;
+    background-position: 80 12 50 12;
+	padding:0 3 0 0;
+	margin:0 10 10 10;
+	overflow:hidden;
+}
+.page{
+	height:100%%;
+	width:100%%;
+	display:none;
+	overflow:none;
+}
+.page[open=true]
+{
+	display:block;
+}
+
+.page[open=false]
+{
+	display:none;
+}
+
+
+
+
+
+
+

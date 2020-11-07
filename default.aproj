@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project ver="10" name="aardio工程7" libEmbed="true" icon="..." ui="win" output="aardio工程7.exe" CompanyName="单位名称" FileDescription="aardio工程7" LegalCopyright="Copyright (C) 单位名称 2020" ProductName="aardio工程7" InternalName="aardio工程7" FileVersion="0.0.0.1" ProductVersion="0.0.0.1" publishDir="/dist/" dstrip="false">
+	<file name="main.aardio" path="main.aardio" comment="main.aardio"/>
+	<folder name="资源文件" path="res" embed="true" local="false"/>
+	<folder name="窗体文件" path="dlg" comment="目录" embed="true" local="false">
+		<file name="skin.aardio" path="dlg\skin.aardio" comment="dlg\skin.aardio"/>
+	</folder>
+	<folder name="html" path="html" embed="true" comment="目录" local="false">
+		<file name="lesson.css" path="html\lesson.css" comment="html\lesson.css"/>
+		<file name="lesson.html" path="html\lesson.html" comment="html\lesson.html"/>
+		<file name="main.css" path="html\main.css" comment="html\main.css"/>
+		<file name="main.html" path="html\main.html" comment="html\main.html"/>
+		<file name="skin.css" path="html\skin.css" comment="html\skin.css"/>
+		<file name="skin.html" path="html\skin.html" comment="html\skin.html"/>
+		<file name="two.html" path="html\two.html" comment="html\two.html"/>
+		<folder name="img" path="html\img" comment="html\img">
+			<file name="border.png" path="html\img\border.png" comment="html\img\border.png"/>
+			<file name="btn_close_down.png" path="html\img\btn_close_down.png" comment="html\img\btn_close_down.png"/>
+			<file name="btn_close_highlight.png" path="html\img\btn_close_highlight.png" comment="html\img\btn_close_highlight.png"/>
+			<file name="btn_close_normal.png" path="html\img\btn_close_normal.png" comment="html\img\btn_close_normal.png"/>
+			<file name="btn_mini_down.png" path="html\img\btn_mini_down.png" comment="html\img\btn_mini_down.png"/>
+			<file name="btn_mini_highlight.png" path="html\img\btn_mini_highlight.png" comment="html\img\btn_mini_highlight.png"/>
+			<file name="btn_mini_normal.png" path="html\img\btn_mini_normal.png" comment="html\img\btn_mini_normal.png"/>
+			<file name="btn_Skin_down.png" path="html\img\btn_Skin_down.png" comment="html\img\btn_Skin_down.png"/>
+			<file name="btn_Skin_highlight.png" path="html\img\btn_Skin_highlight.png" comment="html\img\btn_Skin_highlight.png"/>
+			<file name="btn_Skin_normal.png" path="html\img\btn_Skin_normal.png" comment="html\img\btn_Skin_normal.png"/>
+			<file name="for_back.png" path="html\img\for_back.png" comment="html\img\for_back.png"/>
+			<file name="home.png" path="html\img\home.png" comment="html\img\home.png"/>
+			<file name="jilu.png" path="html\img\jilu.png" comment="html\img\jilu.png"/>
+			<file name="login_btn.png" path="html\img\login_btn.png" comment="html\img\login_btn.png"/>
+			<file name="main_tabbtn_highlight.png" path="html\img\main_tabbtn_highlight.png" comment="html\img\main_tabbtn_highlight.png"/>
+			<file name="main_tabbtn_normal.png" path="html\img\main_tabbtn_normal.png" comment="html\img\main_tabbtn_normal.png"/>
+			<file name="main_tab_check.png" path="html\img\main_tab_check.png" comment="html\img\main_tab_check.png"/>
+			<file name="main_tab_highlight.png" path="html\img\main_tab_highlight.png" comment="html\img\main_tab_highlight.png"/>
+			<file name="manage.png" path="html\img\manage.png" comment="html\img\manage.png"/>
+			<file name="xinde.png" path="html\img\xinde.png" comment="html\img\xinde.png"/>
+			<folder name="001" path="html\img\001" comment="html\img\001">
+				<file name="preview.png" path="html\img\001\preview.png" comment="html\img\001\preview.png"/>
+				<file name="skin.png" path="html\img\001\skin.png" comment="html\img\001\skin.png"/>
+			</folder>
+			<folder name="002" path="html\img\002" comment="html\img\002">
+				<file name="preview.png" path="html\img\002\preview.png" comment="html\img\002\preview.png"/>
+				<file name="skin.png" path="html\img\002\skin.png" comment="html\img\002\skin.png"/>
+			</folder>
+			<folder name="003" path="html\img\003" comment="html\img\003">
+				<file name="preview.png" path="html\img\003\preview.png" comment="html\img\003\preview.png"/>
+				<file name="skin.png" path="html\img\003\skin.png" comment="html\img\003\skin.png"/>
+			</folder>
+			<folder name="004" path="html\img\004" comment="html\img\004">
+				<file name="preview.png" path="html\img\004\preview.png" comment="html\img\004\preview.png"/>
+				<file name="skin.png" path="html\img\004\skin.png" comment="html\img\004\skin.png"/>
+			</folder>
+			<folder name="005" path="html\img\005" comment="html\img\005">
+				<file name="preview.png" path="html\img\005\preview.png" comment="html\img\005\preview.png"/>
+				<file name="skin.png" path="html\img\005\skin.png" comment="html\img\005\skin.png"/>
+			</folder>
+			<folder name="006" path="html\img\006" comment="html\img\006">
+				<file name="preview.png" path="html\img\006\preview.png" comment="html\img\006\preview.png"/>
+				<file name="skin.png" path="html\img\006\skin.png" comment="html\img\006\skin.png"/>
+			</folder>
+			<folder name="007" path="html\img\007" comment="html\img\007">
+				<file name="preview.png" path="html\img\007\preview.png" comment="html\img\007\preview.png"/>
+				<file name="skin.png" path="html\img\007\skin.png" comment="html\img\007\skin.png"/>
+			</folder>
+			<folder name="008" path="html\img\008" comment="html\img\008">
+				<file name="preview.png" path="html\img\008\preview.png" comment="html\img\008\preview.png"/>
+				<file name="skin.png" path="html\img\008\skin.png" comment="html\img\008\skin.png"/>
+			</folder>
+			<folder name="009" path="html\img\009" comment="html\img\009">
+				<file name="preview.png" path="html\img\009\preview.png" comment="html\img\009\preview.png"/>
+				<file name="skin.png" path="html\img\009\skin.png" comment="html\img\009\skin.png"/>
+			</folder>
+			<folder name="010" path="html\img\010" comment="html\img\010">
+				<file name="preview.png" path="html\img\010\preview.png" comment="html\img\010\preview.png"/>
+				<file name="skin.png" path="html\img\010\skin.png" comment="html\img\010\skin.png"/>
+			</folder>
+			<folder name="011" path="html\img\011" comment="html\img\011">
+				<file name="preview.png" path="html\img\011\preview.png" comment="html\img\011\preview.png"/>
+				<file name="skin.png" path="html\img\011\skin.png" comment="html\img\011\skin.png"/>
+			</folder>
+			<folder name="012" path="html\img\012" comment="html\img\012">
+				<file name="preview.png" path="html\img\012\preview.png" comment="html\img\012\preview.png"/>
+				<file name="skin.png" path="html\img\012\skin.png" comment="html\img\012\skin.png"/>
+			</folder>
+			<folder name="013" path="html\img\013" comment="html\img\013">
+				<file name="preview.png" path="html\img\013\preview.png" comment="html\img\013\preview.png"/>
+				<file name="skin.png" path="html\img\013\skin.png" comment="html\img\013\skin.png"/>
+			</folder>
+			<folder name="014" path="html\img\014" comment="html\img\014">
+				<file name="preview.png" path="html\img\014\preview.png" comment="html\img\014\preview.png"/>
+				<file name="skin.png" path="html\img\014\skin.png" comment="html\img\014\skin.png"/>
+			</folder>
+			<folder name="015" path="html\img\015" comment="html\img\015">
+				<file name="preview.png" path="html\img\015\preview.png" comment="html\img\015\preview.png"/>
+				<file name="skin.png" path="html\img\015\skin.png" comment="html\img\015\skin.png"/>
+			</folder>
+		</folder>
+	</folder>
+</project>

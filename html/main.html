@@ -1,0 +1,25 @@
+<html>
+	<style>
+      @import "main.css";
+	</style>  
+	<body>
+		<div #header command="window-caption">
+			<div #space />
+			<div #skin />
+			<div #btn-min command="window-min"/>
+			<div #btn-close command="window-close"/>
+		</div>
+		<div #tabBar>
+			<div .tab checked><img src="img\home.png" />首页</div>
+			<div .tab><img src="img\jilu.png" />上课记录</div>
+			<div .tab><img src="img\manage.png" />管理人员</div>
+			<div .tab><img src="img\xinde.png" />信息记录</div>
+		</div>
+		<div #tabArea>
+			<div .page><include src="lesson.html" > Miss lesson.htm</include></div>
+			<div .page>22222222222222222222</div>
+			<div .page>管理人员----页面演示</div>
+			<div .page>信息记录----页面演示</div>
+		</div>
+	</body>
+</html>
